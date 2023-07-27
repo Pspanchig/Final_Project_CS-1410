@@ -1,0 +1,15 @@
+C:\Users\santi\Desktop\Final_Project_CS-1410\bin\Debug\net7.0\Final_Project_CS-1410.exe
+C:\Users\santi\Desktop\Final_Project_CS-1410\bin\Debug\net7.0\Final_Project_CS-1410.deps.json
+C:\Users\santi\Desktop\Final_Project_CS-1410\bin\Debug\net7.0\Final_Project_CS-1410.runtimeconfig.json
+C:\Users\santi\Desktop\Final_Project_CS-1410\bin\Debug\net7.0\Final_Project_CS-1410.dll
+C:\Users\santi\Desktop\Final_Project_CS-1410\bin\Debug\net7.0\Final_Project_CS-1410.pdb
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.csproj.AssemblyReference.cache
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.AssemblyInfoInputs.cache
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.AssemblyInfo.cs
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.csproj.CoreCompileInputs.cache
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.dll
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\refint\Final_Project_CS-1410.dll
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.pdb
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\Final_Project_CS-1410.genruntimeconfig.cache
+C:\Users\santi\Desktop\Final_Project_CS-1410\obj\Debug\net7.0\ref\Final_Project_CS-1410.dll
