@@ -6,7 +6,7 @@ class Company_user : Users
 
     public List<Normal_Customer>ListOfCustomers = new List<Normal_Customer>();
     public List<Product>ListOfProducts = new List<Product>();
-    List<Company_user>ListOfEmployees = new List<Company_user>();
+    public List<Company_user>ListOfEmployees = new List<Company_user>();
 
     public void AddEmployee(Company_user employee)
     {

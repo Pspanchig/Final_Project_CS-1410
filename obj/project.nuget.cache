@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rhQzzKY+j3XXh98Jqc5DHhuGfSTYdUP0RMhnApzpNtpRdBY5YfMO9iuSxITeyWNK+qM0ZgLhqFWFJgtLy38WCQ==",
+  "dgSpecHash": "/vpFZALCzOhdGB4H3PzpHjmTf6fCihnc4HEr/AhaNpUpraQU3CGM5ehuZVyMgVa5Bv8IfkgXZUpOOy9gqwQ2wQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\santi\\Desktop\\Final_Project_CS-1410\\Final_Project_CS-1410.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }
