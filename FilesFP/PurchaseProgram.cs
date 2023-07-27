@@ -100,15 +100,21 @@ class PurchaseProgram
                 }
 
             }
+
+            //In case of customer
             if(user)         
             {
                 Ncustomer.CheckName_Email();
+
+                //Add to list of customers
                 if(!start2)
                 {Cuser.AddCustomer(Ncustomer); start2 = true;}
+
                 Console.Clear();
                 Texts(2);
                 ConsoleKey key1 = Console.ReadKey(true).Key;
 
+                //Display options
                 switch(key1)
                 {
                     case ConsoleKey.A:     
@@ -121,18 +127,23 @@ class PurchaseProgram
                         Ncustomer.OpenEshop(start, Cuser);
                     }
                     break;
+
                     case ConsoleKey.B:
                     Ncustomer.DisplayProducts();
                     Console.ReadKey();
                     break;
+
                     case ConsoleKey.C:
                     Ncustomer.RemoveProducts();
                     break;
+
                     case ConsoleKey.D:
                     user = false;
                     break;
                 }
             } 
+
+            //In case of seller
             if(CompanyU)
             {
                 Cuser.CheckName_Email();
@@ -140,7 +151,8 @@ class PurchaseProgram
                 Texts(3);
 
                 ConsoleKey key2 = Console.ReadKey(true).Key;
-
+                
+                //Display options
                 switch(key2)
                 {
                     case ConsoleKey.A:
@@ -159,26 +171,32 @@ class PurchaseProgram
                             break;
                         }
                     break;
+                    
                     case ConsoleKey.B:
                     Cuser.ShowListOfProducts();
                     Console.ReadKey();
                     break;
+
                     case ConsoleKey.C:    
                     Cuser.ShowListOfEmployees();   
                     Thread.Sleep(1000);
                     Cuser.HireEmployee();             
                     break;
+
                     case ConsoleKey.D:
                     Cuser.RemoveEmployees();
                     break;
+
                     case ConsoleKey.E:
                     Cuser.ShowListOfCustomers();  
                     Thread.Sleep(1000);
                     Cuser.BringNewCustomers(); 
                     break;
+
                     case ConsoleKey.F:
                     Cuser.RemoveCustomers();
                     break;
+
                     case ConsoleKey.G:
                     CompanyU = false;
                     break;
@@ -187,6 +205,8 @@ class PurchaseProgram
 
         }
     }   
+
+    //Texts that will be display
     public void Texts(int N)
     {
         string lines = string.Concat(Enumerable.Repeat("-", 35));
