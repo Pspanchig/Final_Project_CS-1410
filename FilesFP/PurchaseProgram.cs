@@ -21,6 +21,7 @@ class PurchaseProgram
         bool user = false;
         bool CompanyU = false;
         int start = 0;
+        bool start2 = false;
 
         while (true)
         {           
@@ -41,7 +42,7 @@ class PurchaseProgram
                     Console.WriteLine("Write your passwrod");
                     string? inputPassword = Console.ReadLine();
                     
-
+                    
                     bool login = users.ValidateCredentials(inputID!,inputPassword!);
 
                     if(login)
@@ -102,6 +103,8 @@ class PurchaseProgram
             if(user)         
             {
                 Ncustomer.CheckName_Email();
+                if(!start2)
+                {Cuser.AddCustomer(Ncustomer); start2 = true;}
                 Console.Clear();
                 Texts(2);
                 ConsoleKey key1 = Console.ReadKey(true).Key;

@@ -44,13 +44,19 @@ class Users
             PasswordC.Instructions();
             Console.CursorVisible = true;
             string? NewPassword = Console.ReadLine();
-            if(NewPassword == null) {Console.WriteLine("Password was not valid"); return;}
+
+            if(NewPassword == null) {Console.WriteLine("Password was not valid"); Thread.Sleep(1000);return;}
+
             PasswordC pass = new PasswordC(NewPassword);
             Console.CursorVisible = false;
 
             if(pass.DisplayErrors())
             {
                 Password = NewPassword;
+            }
+            else
+            {
+                Console.WriteLine("Password was not valid"); Thread.Sleep(1000);
             }
 
         }

@@ -4,7 +4,7 @@ class Company_user : Users
     private string? Email {get; set;}
     private DateTime Time {get; set;}
 
-    List<Normal_Customer>ListOfCustomers = new List<Normal_Customer>();
+    public List<Normal_Customer>ListOfCustomers = new List<Normal_Customer>();
     public List<Product>ListOfProducts = new List<Product>();
     List<Company_user>ListOfEmployees = new List<Company_user>();
 

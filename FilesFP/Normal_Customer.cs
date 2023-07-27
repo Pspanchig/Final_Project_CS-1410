@@ -39,6 +39,7 @@ class Normal_Customer : Users
         Console.Clear();
         if(Name == null)
         {
+            Console.CursorVisible = true;
             Console.WriteLine($"Please Write your user name user{ID}");
             string? input0 = Console.ReadLine();
             if(input0 != null)
@@ -60,6 +61,7 @@ class Normal_Customer : Users
             else
             Console.WriteLine("You gotta give me a name");
         }
+        Console.CursorVisible = false;
     }
     public int customerType()
     {
